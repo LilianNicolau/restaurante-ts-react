@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    /* gap espaçamento entre os elementos flex */
+    gap: 20px;
+    /* flex wrap wrap quebra a linha  */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    margin-top: -30px;
+}
+
+.formulario {
+    background: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 36px 64px;
+}
+
+.titulo {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+button {
+    border-radius: 3px; 
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}

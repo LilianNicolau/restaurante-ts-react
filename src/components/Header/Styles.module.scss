@@ -1,0 +1,70 @@
+.headerContainer{
+    background: #9D3C72;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 160px 180px;
+    
+}
+
+.containerImgTxt {
+    display: flex;
+}
+
+.containerTxt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.titulo{
+    color: #FFFFFF;
+}
+  
+.texto{
+    color: #FFBABA;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.botaoContainerAdicionar {
+    background: #C85C8E;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtBotaoAdicionar {
+    display: flex;
+    flex-direction: row;
+}
+
+.novaReceita{
+    margin-right: 10px;
+}
+
+.adicionar{
+    background-color: #FFBABA;
+    color: #FFFFFF;
+    // padding: 10px;
+}
+
+.botaoContainerMinhasReceitas{
+    display: flex;
+    margin-top: 20px;
+    background: #C85C8E;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #FFFFFF;
+    
+}
+
+
+

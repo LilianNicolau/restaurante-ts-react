@@ -1,0 +1,38 @@
+.container{
+    background: #FFBABA;
+    width: 200px;
+    justify-content: center;
+    padding: 30px 10px;
+    box-sizing: border-box; /* isso deixa os cards na mesma linha*/
+    border-radius: 4px;
+    margin: -50px 10px 10px 100px;
+   
+}
+
+.imagem{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .2s filter;
+    &:hover {
+        filter: brightness(0.9)
+    }
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeReceita{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    transition: .2s filter;
+    &:hover {
+        filter: brightness(0.9)
+    }
+}
